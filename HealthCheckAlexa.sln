@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Umbraco", "Umbraco\", "{804C8AD4-D7E3-49F3-89F2-1CECA1AE6E12}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3918"
+		Debug.AspNetCompiler.PhysicalPath = "Umbraco\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3918\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3918"
+		Release.AspNetCompiler.PhysicalPath = "Umbraco\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3918\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3918"
+		SlnRelativePath = "Umbraco\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckAlexa", "HealthCheckAlexa\HealthCheckAlexa.csproj", "{D5838BDE-5B78-49DB-9FD6-19F9DD2C0320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexa.Models", "Alexa.Models\Alexa.Models.csproj", "{F011E549-FA08-4236-9973-460A21C6654A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{804C8AD4-D7E3-49F3-89F2-1CECA1AE6E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804C8AD4-D7E3-49F3-89F2-1CECA1AE6E12}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{804C8AD4-D7E3-49F3-89F2-1CECA1AE6E12}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D5838BDE-5B78-49DB-9FD6-19F9DD2C0320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5838BDE-5B78-49DB-9FD6-19F9DD2C0320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5838BDE-5B78-49DB-9FD6-19F9DD2C0320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5838BDE-5B78-49DB-9FD6-19F9DD2C0320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F011E549-FA08-4236-9973-460A21C6654A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011E549-FA08-4236-9973-460A21C6654A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011E549-FA08-4236-9973-460A21C6654A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011E549-FA08-4236-9973-460A21C6654A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
